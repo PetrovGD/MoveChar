@@ -13,15 +13,19 @@ char key;
 while(1){
         key=getch();
         system("cls");
-        if(key=='w')
+        if(key=='w'){
             y--;
-
-        if(key=='d')
+        }
+        if(key=='d'){
+        f = "==>";
             x++;
+        }
         if(key=='s')
             y++;
-        if(key=='a')
+        if(key=='a'){
+        f = "<==";
             x--;
+        }
         int i=0;
         int j=0;
         while(i<y){
